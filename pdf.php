@@ -11,8 +11,8 @@ class Pdf{
 	 */
 	function getFile()
 	{
-		// 可以改 *.png 为 **/*.png
-		return (glob($this->config['pdfPath'] . "*.png", GLOB_BRACE));
+		// 可以改 *.pdf 为 **/*.pdf
+		return (glob($this->config['pdfPath'] . "*.pdf", GLOB_BRACE));
 	}
 
 	/**
