@@ -1,6 +1,4 @@
 <?php
-require "../pdf.php";
-$config = require "../config.php";
 $pdf = new Pdf;
 
 $allPdfFile = $pdf->getFile();

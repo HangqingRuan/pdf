@@ -5,6 +5,8 @@ error_reporting(E_ALL);
 // 如果私人用的，那么设置下权限
 //auth();
 
+$config = require "./config.php";
+
 require './pdf.php';
 require './views/header.php';
 require './views/main.php';
